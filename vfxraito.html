@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vfx.css">
+    </head>
+<body>
+    <div class="background-element"></div>
+        <div class="background-element"></div>
+    <nav class="nav-logo">
+        <a href="#" class="logo">VFXRAITO</a>
+    </nav>
+
+    <section class="hero">
+      <div class="bg-video">
+        <video autoplay muted loop class="hero-video">
+          <source src="dist/bg-video.mp4" type="video/mp4">
+      </video> </div>
+        <div class="background-element"></div>
+        <div class="background-element"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">Create <span class="accent">Impactful</span> Stories</h1>
+            <h2 class="hero-subtitle">With Editing That <span class="accent">Inspires</span></h2>
+            <button class="cta-button" onclick="scrollToBottom()">Start Your Project</button>
+        </div> 
+    </section>
+
+
+    <!-- reviews -->
+  
+    <div class="youtubers-container">
+      <div class="youtubers-scroll" id="scrollContainer">
+        <!-- YouTubers will be dynamically added here -->
+      </div>
+    </div>
+    
+  
+    <div class="gallery-container">
+    <h1 class="gallery-title"></h1>
+    
+    <div class="video-row">
+      <div class="video-container">
+        <div class="video-frame">
+          <!-- Placeholder for video - replace with your actual video embed code -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/XMqLkcrmZmE?si=zarWow2SG9hWNqlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-info">
+          <h3 class="video-title">Sarcastic Singles</h3>
+        </div>
+      </div>
+      <div class="icon-container">
+        <div class="icon">
+          <img src="dist/raitoprofile (1).jpg" alt="Logo" class="icon-icon">
+        </div>
+      </div>
+    </div>
+    <div class="text-logo-container">
+      <h2>I love your work your editing skills are next level. It was with your help I was able to reach 100k subscribers within a month</h2>
+      <img src="dist/channel-Sarcasstic.jpg" alt="Logo">
+  </div>
+    
+    <div class="video-row">
+      <div class="video-container">
+        <div class="video-frame">
+          <!-- Placeholder for video - replace with your actual video embed code -->
+          <iframe width="560" height="315" src="https://youtube.com/embed/9BNH19EBHDw?si=rjkQ64f6hqZK42j2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-info">
+          <h3 class="video-title">TechShot</h3>
+      
+        </div>
+      </div>
+      <div class="icon-container">
+        <div class="icon">
+          <img src="dist/raitoprofile (1).jpg" alt="Logo" class="icon-icon">
+        </div>
+      </div>
+    </div>
+    <div class="text-logo-container">
+      <h5>Crafting visual stories, one frame at a time. Let's captivate together</h5>
+     <!-- <img src="raitoprofile.jpg" alt="Logo">-->
+  </div>
+    
+    <div class="video-row">
+      <div class="video-container">
+        <div class="video-frame">
+          <!-- Placeholder for video - replace with your actual video embed code -->
+          <iframe width="560" height="315" src="https://youtube.com/embed/cfQoq4JoJDU?si=XXwvg1L3umuJMkut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-info">
+          <h3 class="video-title">Sarcastic Singles</h3>
+        </div>
+      </div>
+      <div class="icon-container">
+        <div class="icon">
+          <img src="dist/raitoprofile (1).jpg" alt="Logo" class="icon-icon">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <footer class="footer" id="bottom">
+
+        <div class="contact-container">
+          <div class="contact-option" onclick="openDiscord()">
+           <!-- <i class="fab fa-discord"></i>-->
+            <i class="fa-brands fa-discord"></i>
+            <span>Discord</span>
+          </div>
+          <div class="contact-option" onclick="openTwitter()">
+            <i class="fa-brands fa-x-twitter"></i>
+            <span>Twitter</span>
+          </div>
+        </div>
+      </footer>
+    
+<script src="vfx.js"></script>
+
+</body>
+</html>
+
